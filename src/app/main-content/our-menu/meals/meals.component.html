@@ -1,25 +1,21 @@
-<div id="our-menu" class="column">
-    <h2>OUR MENU</h2>
+<section class="column">
+    <div class="meal row center" *ngFor="let meal of meals">
+        <img [src]="meal.img">
     
-    <div class="column">
-        <div class="meal row center" *ngFor="let meal of meals">
-            <img [src]="meal.img">
-        
-            <div class="column meal-info">
-                <span class="heading">{{ meal.name }}</span>
-                <div>
-                    <span>BEEF</span>
-                    <span>11.95€</span>
-                </div>
-                <div>
-                    <span>CHICKEN</span>
-                    <span>12.95€</span>
-                </div>
-                <div>
-                    <span>SHRIMP</span>
-                    <span>13.95€</span>
-                </div>
+        <div class="column meal-info">
+            <span class="heading">{{ meal.name }}</span>
+            <div>
+                <span>BEEF</span>
+                <span>11.95€</span>
+            </div>
+            <div>
+                <span>CHICKEN</span>
+                <span>12.95€</span>
+            </div>
+            <div>
+                <span>SHRIMP</span>
+                <span>13.95€</span>
             </div>
         </div>
     </div>
-</div>
+</section>
