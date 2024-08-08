@@ -3,6 +3,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 
@@ -112,11 +113,16 @@ p, a, button {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
 }
 
 h2 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h3 {
   font-size: 1.5rem;
   font-weight: 400;
 }
