@@ -1,0 +1,28 @@
+@import '../../../../variables.scss';
+
+footer {
+    padding: 50px 10%;
+    background-color: rgb(36, 48, 66);
+    font-family: $mainfont;
+
+    div {
+        color: $white;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            height: 50px;
+            width: 50px;
+        }
+
+        span {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        a:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
