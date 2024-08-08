@@ -1,0 +1,22 @@
+@import '../../../variables.scss';
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../../assets/img/bgr1.jpg');
+    background-size: cover;
+
+    app-nav {
+        height: fit-content;
+        width: 100%;
+    }
+
+    >div {
+        height: 100%;
+        width: 100%;
+
+        h1, h2 {
+            color: $white;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@import '../../../../variables.scss';
+
+nav {
+    width: 100%;
+    padding: 0 3%;
+    margin-top: 50px;
+
+    >img {
+        height: 75px;
+    }
+
+    >div {
+        align-items: center;
+        gap: 60px;
+        
+        a {
+            color: $white;
+            font-family: $mainfont;
+            font-weight: 600;
+            font-size: 1.5rem;
+
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+
+        div {
+            align-items: center;
+            gap: 15px;
+            color: $white;
+            font-family: $mainfont;
+            background-color: rgb(172, 5, 5);
+            border: 1px solid $white;
+            border-radius: 7px;
+            padding: 5px;
+
+            &:hover {
+                background-color:rgb(172, 5, 5, 0.7);
+                cursor: pointer;
+            }
+
+            img {
+                height: 25px;
+            }
+
+            span {
+                font-size: 1.25rem;
+                font-weight: 500;
+            }
+        } 
+
+    }
+}
