@@ -59,3 +59,21 @@
 .meal:nth-of-type(2) {
     flex-direction: row-reverse;
 }
+
+@media(max-width: 800px) {
+    #our-menu {
+        >div:first-of-type {
+            gap: 60px;
+        }
+    }
+
+    .meal {
+        flex-direction: column !important;
+
+        .meal-info {
+            .heading {
+                text-align: center;
+            }
+        }
+    }
+}

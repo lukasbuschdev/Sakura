@@ -19,10 +19,23 @@ div:first-of-type {
             gap: 10px;
         }
 
+        img {
+            height: 120px;
+        }
+
         span {
             text-align: center;
             font-size: 1.5rem;
             font-weight: 600;
+        }
+    }
+}
+
+@media(max-width: 800px) {
+    div:first-of-type {
+        >div:last-of-type {
+            flex-direction: column;
+            gap: 40px;
         }
     }
 }
