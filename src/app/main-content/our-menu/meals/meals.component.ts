@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 })
 
 export class MealsComponent {
-  meals = [
+  meals: meal[] = [
     {
       name: "Tonkasu Ramen",
       img: "./assets/img/r1.png"
@@ -25,3 +25,5 @@ export class MealsComponent {
     }
   ]
 }
+
+type meal = {name: string, img: string}
