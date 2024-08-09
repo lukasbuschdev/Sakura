@@ -13,15 +13,15 @@ export class MealsComponent {
   meals = [
     {
       name: "Tonkasu Ramen",
-      img: "../../../../assets/img/r1.png"
+      img: "./assets/img/r1.png"
     },
     {
       name: "Spicy Miso Ramen",
-      img: "../../../../assets/img/r2.png"
+      img: "./assets/img/r2.png"
     },
     {
       name: "Shio Ramen",
-      img: "../../../../assets/img/r3.png"
+      img: "./assets/img/r3.png"
     }
   ]
 }
